@@ -1,0 +1,28 @@
+.progress-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .progress-bar {
+    background-color: #e5e7eb; /* Tailwind's gray-200 */
+    border-radius: 9999px;
+    height: 1rem;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+    height: 100%;
+    border-radius: 9999px;
+    width: 70%; /* Change to your desired progress */
+    transition: width 0.5s ease-in-out;
+  }
+
+  .progress-label {
+    text-align: right;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151; /* Tailwind's gray-700 */
+  }
